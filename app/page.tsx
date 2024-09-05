@@ -52,7 +52,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold  text-gray-800 text-center mt-10">
           My Projects
         </h2>
-        <p className="text-center text-gray-600  text-lg mt-2">
+        <p className="text-center text-gray-600 mx-4 text-lg mt-2">
           Check out some of the projects I've worked on to showcase my skills
           and experience.
         </p>
