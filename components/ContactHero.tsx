@@ -28,7 +28,7 @@ const ContactHero = () => {
   };
 
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className=" responsive hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:w-3/5 lg:flex-col">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Let's Work Together</h1>

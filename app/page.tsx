@@ -44,31 +44,31 @@ const projectList = [
 
 export default function Home() {
   return (
-    <div>
-      <div className="container py-20 mx-12">
+    <div className="responsive w-full">
+      <div className=" reponsive container py-20 mx-auto">
         <BioHero />
       </div>
-      <div id="projects" className="container pb-20 mx-auto">
+      <div id="projects" className=" responsive container pb-20 mx-auto">
         <h2 className="text-3xl font-bold text-center mt-10">My Projects</h2>
         <p className="text-center text-lg mt-2">
           Check out some of the projects I've worked on to showcase my skills
           and experience.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+        <div className=" responsive grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
           {projectList.map((project: project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       </div>
-      <div id="skills" className="pb-20 container mx-auto">
+      <div id="skills" className=" responsive pb-20 container mx-auto">
         <h2 className="text-3xl font-bold text-center mt-10">My Skills</h2>
         <p className="text-center text-lg mt-2">
           Here are some of the technologies I have experience with.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+        <div className=" responsive grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
           {/* Frontend Skills */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
+          <div className=" mx-4 responsive bg-white shadow-lg rounded-lg p-6">
             <h3 className="text-2xl font-semibold mb-4 text-dark-red-500">
               Frontend
             </h3>
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
 
           {/* Backend Skills */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
+          <div className="mx-4 responsive bg-white shadow-lg rounded-lg p-6">
             <h3 className="text-2xl font-semibold mb-4 text-dark-red-500">
               Backend
             </h3>
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
 
           {/* Tools */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
+          <div className=" mx-4 responsive bg-white shadow-lg rounded-lg p-6">
             <h3 className="text-2xl font-semibold mb-4 text-dark-red-500">
               Tools
             </h3>
@@ -115,7 +115,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="contact">
+      <div className="responsive" id="contact">
         <ContactHero />
       </div>
     </div>

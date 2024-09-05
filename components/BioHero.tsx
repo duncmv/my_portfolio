@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 
 const BioHero = () => {
   return (
-    <div className="hero bg-inherit py-12">
+    <div className=" responsive hero bg-inherit py-12">
       <div className="hero-content flex-col lg:flex-row lg:gap-12">
         {/* Image Container */}
         <div className="flex-shrink-0 w-full max-w-md lg:max-w-lg">

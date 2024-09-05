@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="navbar bg-inherit justify-end sticky top-0 z-50">
+    <div className=" responsive navbar bg-inherit justify-end sticky top-0 z-50">
       <div className="flex space-x-4">
         <a href="#projects" className="btn btn-ghost normal-case text-xl">
           Projects
