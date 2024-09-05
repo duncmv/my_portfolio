@@ -12,7 +12,7 @@ interface ProjectCardProps {
 }
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <div className=" mx-4 responsive card card-compact bg-base-100 w-auto h-auto shadow-xl">
+    <div className=" mx-4 responsive card card-compact bg-inherit border-base-700 w-auto h-auto shadow-xl">
       <figure className="w-full h-48 flex items-center justify-center bg-white">
         <img
           src={project.image}
@@ -21,8 +21,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{project.name}</h2>
-        <p>{project.describe}</p>
+        <h2 className="card-title text-black">{project.name}</h2>
+        <p className="text-black">{project.describe}</p>
         <div className="card-actions justify-end space-x-4">
           {project.demo && (
             <a href={project.demo} target="_blank" rel="noreferrer">

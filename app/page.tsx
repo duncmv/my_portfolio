@@ -69,9 +69,7 @@ export default function Home() {
         <div className=" responsive grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
           {/* Frontend Skills */}
           <div className=" mx-4 responsive bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-2xl font-semibold mb-4 text-dark-red-500">
-              Frontend
-            </h3>
+            <h3 className="text-2xl font-semibold mb-4 text-black">Frontend</h3>
             <ul className="space-y-2 text-gray-700">
               <li>React.js</li>
               <li>Next.js</li>
@@ -85,9 +83,7 @@ export default function Home() {
 
           {/* Backend Skills */}
           <div className="mx-4 responsive bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-2xl font-semibold mb-4 text-dark-red-500">
-              Backend
-            </h3>
+            <h3 className="text-2xl font-semibold mb-4 text-black">Backend</h3>
             <ul className="space-y-2 text-gray-700">
               <li>Python</li>
               <li>Node.js</li>
@@ -100,9 +96,7 @@ export default function Home() {
 
           {/* Tools */}
           <div className=" mx-4 responsive bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-2xl font-semibold mb-4 text-dark-red-500">
-              Tools
-            </h3>
+            <h3 className="text-2xl font-semibold mb-4 text-black">Tools</h3>
             <ul className="space-y-2 text-gray-700">
               <li>Git & GitHub</li>
               <li>VS Code</li>
