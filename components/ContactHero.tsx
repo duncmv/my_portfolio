@@ -30,9 +30,11 @@ const ContactHero = () => {
   return (
     <div className=" responsive hero bg-inherit min-h-screen">
       <div className="hero-content flex-col lg:w-3/5 lg:flex-col">
-        <div className="text-center text-contrast lg:text-left">
-          <h1 className="text-5xl font-bold">Let's Work Together</h1>
-          <p className="py-6">
+        <div className="text-center lg:text-left">
+          <h1 className="text-5xl text-gray-800 font-bold">
+            Let's Work Together
+          </h1>
+          <p className="text-gray-600 py-6">
             Always excited to collaborate. Reach out and let's get started.
           </p>
         </div>

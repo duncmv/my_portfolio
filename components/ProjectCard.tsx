@@ -21,8 +21,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         />
       </figure>
       <div className="card-body">
-        <h2 className="card-title text-contrast">{project.name}</h2>
-        <p className="text-contrast">{project.describe}</p>
+        <h2 className="card-title text-gray-800">{project.name}</h2>
+        <p className="text-gray-600">{project.describe}</p>
         <div className="card-actions justify-end space-x-4">
           {project.demo && (
             <a href={project.demo} target="_blank" rel="noreferrer">

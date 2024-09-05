@@ -49,8 +49,10 @@ export default function Home() {
         <BioHero />
       </div>
       <div id="projects" className=" responsive container pb-20 mx-auto">
-        <h2 className="text-3xl font-bold text-center mt-10">My Projects</h2>
-        <p className="text-center text-lg mt-2">
+        <h2 className="text-3xl font-bold  text-gray-800 text-center mt-10">
+          My Projects
+        </h2>
+        <p className="text-center text-gray-600  text-lg mt-2">
           Check out some of the projects I've worked on to showcase my skills
           and experience.
         </p>
@@ -61,8 +63,10 @@ export default function Home() {
         </div>
       </div>
       <div id="skills" className=" responsive pb-20 container mx-auto">
-        <h2 className="text-3xl font-bold text-center mt-10">My Skills</h2>
-        <p className="text-center text-lg mt-2">
+        <h2 className="text-3xl  text-gray-800 font-bold text-center mt-10">
+          My Skills
+        </h2>
+        <p className="text-center text-gray-600 text-lg mt-2">
           Here are some of the technologies I have experience with.
         </p>
 
