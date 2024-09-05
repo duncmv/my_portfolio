@@ -30,10 +30,14 @@ const BioHero = () => {
           </p>
           <div className="flex flex-col lg:flex-row justify-center space-y-4 lg:space-y-0 lg:space-x-4">
             <a href="#projects">
-              <button className="btn btn-outline">View Projects</button>
+              <button className="btn btn-outline text-gray-600">
+                View Projects
+              </button>
             </a>
             <a href="#contact">
-              <button className="btn btn-outline">Contact Me</button>
+              <button className="btn btn-outline text-gray-600">
+                Contact Me
+              </button>
             </a>
           </div>
         </div>

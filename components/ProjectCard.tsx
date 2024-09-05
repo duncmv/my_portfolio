@@ -26,11 +26,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <div className="card-actions justify-end space-x-4">
           {project.demo && (
             <a href={project.demo} target="_blank" rel="noreferrer">
-              <button className="btn btn-outline ">Demo</button>
+              <button className="btn btn-outline text-gray-600">Demo</button>
             </a>
           )}
           <a href={project.link} target="_blank" rel="noreferrer">
-            <button className="btn btn-outline ">Repo</button>
+            <button className="btn btn-outline text-gray-600">Repo</button>
           </a>
         </div>
       </div>

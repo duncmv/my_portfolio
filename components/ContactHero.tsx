@@ -80,7 +80,7 @@ const ContactHero = () => {
             </div>
 
             <div className="flex justify-center mt-6">
-              <button className="btn btn-primary">Submit</button>
+              <button className="btn btn-outline">Submit</button>
             </div>
           </form>
         </div>
