@@ -49,7 +49,7 @@ export default function Home() {
         <BioHero />
       </div>
       <div id="projects" className=" responsive container pb-20 mx-auto">
-        <h2 className="text-3xl font-bold  text-gray-800 text-center mt-10">
+        <h2 className="text-3xl font-bold  text-contrast text-center mt-10">
           My Projects
         </h2>
         <p className="text-center text-gray-600 mx-4 text-lg mt-2">
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       </div>
       <div id="skills" className=" responsive pb-20 container mx-auto">
-        <h2 className="text-3xl  text-gray-800 font-bold text-center mt-10">
+        <h2 className="text-3xl  text-contrast font-bold text-center mt-10">
           My Skills
         </h2>
         <p className="text-center text-gray-600 text-lg mt-2">

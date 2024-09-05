@@ -19,7 +19,7 @@ const BioHero = () => {
 
         {/* Text Content */}
         <div className="text-center lg:text-left lg:mr-8 mt-8 lg:mt-0">
-          <h1 className="text-5xl lg:text-7xl text-center font-extrabold text-gray-800">
+          <h1 className="text-5xl lg:text-7xl text-center font-extrabold text-contrast">
             Duncan Tindiwensi Asiimwe
           </h1>
           <p className="py-6 text-lg lg:text-xl text-center text-gray-600 leading-relaxed">
