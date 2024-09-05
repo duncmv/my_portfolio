@@ -21,8 +21,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         />
       </figure>
       <div className="card-body">
-        <h2 className="card-title text-black">{project.name}</h2>
-        <p className="text-black">{project.describe}</p>
+        <h2 className="card-title text-contrast">{project.name}</h2>
+        <p className="text-contrast">{project.describe}</p>
         <div className="card-actions justify-end space-x-4">
           {project.demo && (
             <a href={project.demo} target="_blank" rel="noreferrer">
@@ -30,7 +30,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             </a>
           )}
           <a href={project.link} target="_blank" rel="noreferrer">
-            <button className="btn btn-outline">Repo</button>
+            <button className="btn btn-outline ">Repo</button>
           </a>
         </div>
       </div>
