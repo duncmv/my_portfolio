@@ -36,7 +36,7 @@ const projectList = [
     name: "Portfolio Page",
     describe:
       "My personal portfolio page. Built with Next.js, TailWindCSS and TypeScript.",
-    link: "https://github.com/duncmv/portfolio",
+    link: "https://github.com/duncmv/my_portfolio",
     demo: "",
     image: "/portfolio.png",
   },
