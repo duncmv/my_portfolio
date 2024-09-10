@@ -21,12 +21,15 @@ const sendMail = async (email, name, message) => {
     text: `${name}, ${email} would like to contact you regarding \n/
       ${message}`,
   };
-  mg.sendMail(data)
-    .then(() => true)
-    .catch((err) => {
-      console.log('Error: ', err);
-      throw new Error(err);
+  await new Promise((resolve, reject) => {
+    mg.sendMail(data, (err, info) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(info);
+      }
     });
+  });
 };
 
 export default sendMail;
